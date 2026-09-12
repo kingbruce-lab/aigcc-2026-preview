@@ -1,0 +1,1 @@
+import{r as e}from"./index-3gr18Ou5.js";function o(t){return Number(t??0).toLocaleString()}const s=e.createContext({self:null,reloadSelf:async()=>{},keyHashes:[],reloadKeyHashes:async()=>{},logout:async()=>{}});function n(){return e.useContext(s)}export{s as D,o as f,n as u};
