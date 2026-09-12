@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Origin AI</title>
+    <meta name="description" content="OriginGame connects AI game creation, runtime, project checks, publishing, and play. 从想法到可验证、可分享的游戏。" />
+    <link rel="icon" href="/aigcc-2026-preview/favicon.svg" type="image/svg+xml" />
+    <script>
+      // Anti-flash: resolve theme before first paint. Stored override wins;
+      // otherwise dark is the product default (do not follow OS light).
+      ;(function () {
+        var t
+        try {
+          t = localStorage.getItem('og-theme')
+        } catch (e) {}
+        if (t !== 'light' && t !== 'dark') t = 'dark'
+        document.documentElement.dataset.theme = t
+      })()
+    </script>
+    <script type="module" crossorigin src="/aigcc-2026-preview/assets/index-DpY2zlG3.js"></script>
+    <link rel="stylesheet" crossorigin href="/aigcc-2026-preview/assets/index-BHvW-1t_.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

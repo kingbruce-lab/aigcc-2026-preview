@@ -1,0 +1,1 @@
+import{j as t}from"./index-DpY2zlG3.js";function p({items:e,value:r,onChange:c,className:s=""}){return t.jsx("div",{className:`flex flex-wrap items-center gap-1.5 ${s}`.trim(),children:e.map(i=>{const a=i.id===r;return t.jsx("button",{type:"button",onClick:()=>c(i.id),className:a?"chip chip-active":"chip",children:i.label},i.id)})})}export{p as F};

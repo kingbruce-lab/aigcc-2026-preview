@@ -1,0 +1,20 @@
+# https://origingame.ai/robots.txt
+# Public catalog and product pages are indexable; account/API surfaces are not.
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /gw/
+Disallow: /dashboard
+Disallow: /dashboard/
+Disallow: /admin
+Disallow: /admin/
+Disallow: /desktop/
+Disallow: /oauth/
+Disallow: /user/
+Disallow: /forgot
+Disallow: /me
+
+# Prefer the canonical apex for indexing.
+Sitemap: https://origingame.ai/sitemap.xml
+Sitemap: https://origingame.ai/sitemap-games.xml

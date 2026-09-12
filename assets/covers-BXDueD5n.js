@@ -1,0 +1,1 @@
+function e(r,t){return!r.startsWith("/api/covers/")&&!r.startsWith("/api/media/")?r:`${r}${r.includes("?")?"&":"?"}w=${t}`}function c(r,t){return r.coverCardUrl&&t<=320?r.coverCardUrl:e(r.coverUrl,t)}function n(r,t){return e(r,t)}export{c,n as s};
